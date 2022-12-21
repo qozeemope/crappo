@@ -1,5 +1,7 @@
 import Hero from "./component/Hero";
 import Navigation from "./component/Navigation";
+import SectionFour from "./component/SectionFour";
+import SectionThree from "./component/SectionThree";
 import SectionTwo from "./component/SectionTwo";
 
 function App() {
@@ -11,6 +13,8 @@ function App() {
       <Navigation />
       <Hero />
       <SectionTwo />
+      <SectionThree />
+      <SectionFour />
     </div>
   );
 }

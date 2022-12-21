@@ -5,3 +5,7 @@
 body {
   margin: 0;
 }
+
+.convert {
+  filter: drop-shadow(0px 20px 200px rgba(57, 23, 119, 0.05));
+}
