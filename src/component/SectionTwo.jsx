@@ -1,8 +1,8 @@
 import React from "react";
 import stats from "../assets/stats-Icon.svg";
 import world from "../assets/world-icon.svg";
-// import base from "../assets/Base.svg";
-import basse from "../assets/Basse.svg";
+import illustrations from "../assets/Illustrations.svg";
+import user from "../assets/user.svg";
 import Button from "./sub-component/Button";
 
 function SectionTwo() {
@@ -21,7 +21,7 @@ function SectionTwo() {
 
         <div className="flex items-center gap-[24px] ">
           <div className="flex">
-            <img src={basse} alt="" className="w-[80px] h-[80px] " />
+            <img src={user} alt="" className="w-[80px] h-[80px] " />
           </div>
           <div className="flex flex-col">
             <h1 className="font-bold text-4xl">10M+</h1>
@@ -40,7 +40,9 @@ function SectionTwo() {
         </div>
       </div>
       <div className="flex mt-[100px] gap-[70px] items-center">
-        <div className="w-[650px] h-[453px] bg-[#e0e0e010] "></div>
+        <div className="">
+          <img src={illustrations} alt="" />
+        </div>
         <div>
           <h1 className="font-bold text-4xl w-[480px] ">
             Why you should choose CRAPPO
