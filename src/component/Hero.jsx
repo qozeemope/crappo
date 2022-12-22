@@ -17,7 +17,7 @@ function Hero() {
           Fastest & secure platform to invest <br />
           in crypto
         </h1>
-        <div>
+        <div className="mt-[32px] ">
           {" "}
           <Button>
             <div className="flex items-center  gap-[24px] ">
